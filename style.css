@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.my-carousel {
+  margin-top: -5%;
+}
+
+.carousel-item {
+  height: 70rem;
+  position: relative;
+}
+.my-caption {
+  position: absolute;
+  bottom: 36%;
+}
+.my-caption h1 {
+  font-style: normal;
+  font-family: cursive;
+}
+.my-caption p {
+  font-style: italic;
+  font-family: cursive;
+}
+h3 {
+  text-align: center;
+  margin-top: 5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(24, 82, 13);
+}
+
+.container {
+  width: 1000px;
+  min-height: 500px;
+  background: white;
+  margin: 70px auto 0;
+  margin-left: 10%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: aqua;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.container .box .imgbox {
+  position: relative;
+  overflow: hidden;
+}
+.container .box .imgbox img {
+  width: 300px;
+  height: 300px;
+
+  transition: transform 2s;
+}
+.container .box:hover .imgbox img {
+  transform: scale(1.2);
+}
+.container .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transition: transform 0.5s;
+}
+.container .box:hover .details {
+  transform: scaleY(1);
+}
+.container .box .details .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: aliceblue;
+  position: relative;
+}
+.container .box .details .content a {
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+  color: #ff0;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+}

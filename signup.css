@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0p;
+}
+body {
+  background-image: url(../images/pexels-david-bartus-1846608.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.form {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  border: 3px solid rgb(160, 107, 107);
+
+  color: aliceblue;
+
+  padding: 5%;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
