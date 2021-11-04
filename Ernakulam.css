@@ -44,25 +44,25 @@ position: relative;
   text-align: center;
   margin-top: 50%;
  
-  color: rgb(80, 114, 145);
+  color: rgb(65, 80, 95);
   font-family: 'Times New Roman', Times, serif;
 position: relative;}
 .mappic {
   position: absolute;
-right: 29%;
+right: 32%;
 margin-top: 1%;
 }
 #tour {
   position: absolute;
   text-align: center;
-  left: 13%;
+  left: 20%;
   top:210%;
   font-family: Arial, Helvetica, sans-serif;
 }
 .cards{
   position: absolute;
   margin-top: 45%;
-  margin-left: 13%;
+  margin-left: 20%;
   
   
 }
