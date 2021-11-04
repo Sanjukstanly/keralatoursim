@@ -18,7 +18,7 @@ header {
   position: relative;
 }
  .pic{
-margin-top: -5%;
+margin-top: -1%;
 position: relative;
 
 }
@@ -42,7 +42,7 @@ position: relative;
 }
 .map {
   text-align: center;
-  margin-top: 45%;
+  margin-top: 50%;
  
   color: rgb(80, 114, 145);
   font-family: 'Times New Roman', Times, serif;
